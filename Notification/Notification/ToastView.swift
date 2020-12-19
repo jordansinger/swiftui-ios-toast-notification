@@ -15,7 +15,7 @@ struct ToastView: View {
     
     var body: some View {
         HStack(spacing: 16) {
-            if image != nil {
+            if image != "none" {
                 Image(systemName: image!)
                     .resizable()
                     .scaledToFit()
@@ -27,14 +27,14 @@ struct ToastView: View {
                     .lineLimit(1)
                     .font(.headline)
                 
-                if subtitle != nil {
+                if subtitle != "" {
                     Text(subtitle!)
                         .lineLimit(1)
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                 }
             }
-            .padding(image == nil ? .horizontal : .trailing)
+            .padding(image == "none" ? .horizontal : .trailing)
         }
         .padding(.horizontal)
         .frame(height: 56)

@@ -12,6 +12,7 @@
 		86A50138258E3E0400D42B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A50137258E3E0400D42B72 /* Assets.xcassets */; };
 		86A5013B258E3E0400D42B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A5013A258E3E0400D42B72 /* Preview Assets.xcassets */; };
 		86A50144258E3E1100D42B72 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A50143258E3E1100D42B72 /* ToastView.swift */; };
+		86A50149258E4A8500D42B72 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A50148258E4A8500D42B72 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		86A5013A258E3E0400D42B72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86A5013C258E3E0400D42B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A50143258E3E1100D42B72 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		86A50148258E4A8500D42B72 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				86A50133258E3DFF00D42B72 /* NotificationApp.swift */,
 				86A50135258E3DFF00D42B72 /* ContentView.swift */,
 				86A50143258E3E1100D42B72 /* ToastView.swift */,
+				86A50148258E4A8500D42B72 /* EditView.swift */,
 				86A50137258E3E0400D42B72 /* Assets.xcassets */,
 				86A5013C258E3E0400D42B72 /* Info.plist */,
 				86A50139258E3E0400D42B72 /* Preview Content */,
@@ -143,6 +146,7 @@
 			files = (
 				86A50136258E3DFF00D42B72 /* ContentView.swift in Sources */,
 				86A50144258E3E1100D42B72 /* ToastView.swift in Sources */,
+				86A50149258E4A8500D42B72 /* EditView.swift in Sources */,
 				86A50134258E3DFF00D42B72 /* NotificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Notification/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Notification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -294,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Notification/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Notification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
